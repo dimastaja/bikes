@@ -58,7 +58,9 @@ get_header(); ?>
           </a><div style="margin: 0 auto; background: #ece9e6; padding-top: 5px; padding-bottom: 5px; width: 175px; display: inline-block;"><a href="/cruz/" class="">
             </a><a style="color: black; padding: 40px 20px 40px 20px;" href="/cruz/">Узнать больше</a>
           </div>
-
+        <div style="margin: 0 auto; background: #862633; padding-top: 5px; padding-bottom: 5px; width: 175px; display: inline-block;">
+            <a style="color: white; padding: 40px 20px 40px 20px;" href="/cruz-order/">Создать свой</a>
+          </div>
           
         </div>
       
@@ -80,7 +82,9 @@ get_header(); ?>
           <div style="margin: 0 auto; background: #ece9e6; padding-top: 5px; padding-bottom: 5px; width: 175px; display: inline-block;">
             <a style="color: black; padding: 40px 20px 40px 20px;" href="/tracker/">Узнать больше</a>
           </div>
-
+<div style="margin: 0 auto; background: #862633; padding-top: 5px; padding-bottom: 5px; width: 175px; display: inline-block;">
+            <a style="color: white; padding: 40px 20px 40px 20px;" href="/tracker-order/">Создать свой</a>
+          </div>
           <!--<div style="margin: 0 auto; background: #862633; padding-top: 5px; padding-bottom: 5px; width: 175px; display: inline-block;">
             <a style="color: white; padding: 40px 20px 40px 20px;" href="/pages/builder">Build Yours Now</a>
           </div> -->

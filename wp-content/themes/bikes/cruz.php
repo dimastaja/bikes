@@ -132,7 +132,9 @@ get_header(); ?>
     <div class="sticky-cell yui3-u-1-5">
         <a href="#media">Фото</a>
     </div>
-    
+    <div class="sticky-cell yui3-u-1-5" id="sticky-buy">
+        <a style="width: 100%;" href="/cruz-order/">Купить</a>
+    </div>
   </div>
 </div>
 </div>

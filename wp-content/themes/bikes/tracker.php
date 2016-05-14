@@ -132,7 +132,9 @@ get_header(); ?>
     <div class="sticky-cell yui3-u-1-5">
         <a href="#media">Фото</a>
     </div>
-    
+    <div class="sticky-cell yui3-u-1-5" id="sticky-buy">
+        <a style="width: 100%;" href="/tracker-order/">Купить</a>
+    </div>
   </div>
 </div>
 </div>
@@ -493,14 +495,14 @@ get_header(); ?>
                     <td>Рама</td>
                     <td>Гидроформованный алюминий</td>
                 </tr>
-                <tr class="alt">
+                <!--<tr class="alt">
                   <td>Forks</td>
                   <td>Tig welded steel with hand crafted leather frame bumps</td>
                 </tr>
                 <tr>
                   <td>Triple Clamp</td>
                   <td>CNC machined high grade billet aluminum</td>
-                </tr>
+                </tr>-->
                 <tr class="alt">
                     <td>Ручки и сдело</td>
                     <td>Ручная работа от Brooks</td>
@@ -509,10 +511,10 @@ get_header(); ?>
                     <td>Тормоза</td>
                     <td>Тормоза гидравлические дисковые. 180 мм спереди. 160мм сзади</td>
                 </tr>
-                <tr>
+               <!-- <tr>
                   <td>Handlebars</td>
                   <td>Hand made stainless steel</td>
-                </tr>
+                </tr>-->
                 <tr class="alt">
                     <td>Колеса </td>
                     <td>26 дюймов, алюминиевые, 36 спиц</td>

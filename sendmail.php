@@ -48,7 +48,7 @@ function toMain()
 {
     window.location='/';
 }
-setTimeout(toMain,2000);
+setTimeout(toMain,3000);
 </script>
 </body>
 </html>
