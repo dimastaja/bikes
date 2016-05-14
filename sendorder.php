@@ -85,7 +85,7 @@ $messageToCustomer="<head>
   $Mailer->SetFrom('info@vintageelectricbikes.ru', 'Info');
   $Mailer->AddBCC('s_dimon88@list.ru');
   $Mailer->AddAddress('dmitriy.supov@gmail.com');
- // $Mailer->AddAddress('ichichkan@gmail.com');
+  $Mailer->AddAddress('ichichkan@gmail.com');
   $subject = "Заказ с сайта vintageelectricbikes.ru #$orderNum";
   $Mailer->Subject = $subject;
  
