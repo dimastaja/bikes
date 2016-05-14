@@ -27,7 +27,7 @@ foreach($_REQUEST as $key => $value)
 
   $Mailer->SetFrom('info@vintageelectricbikes.ru', 'Info');
   $Mailer->AddAddress('dmitriy.supov@gmail.com');
-  $Mailer->AddAddress('ichichkan@gmail.com ');
+ // $Mailer->AddAddress('ichichkan@gmail.com ');
   $Mailer->AddBCC('s_dimon88@list.ru');
   $subject = "Запрос с сайта vintageelectricbikes.ru";
   $Mailer->Subject = $subject;
