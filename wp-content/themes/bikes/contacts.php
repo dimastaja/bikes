@@ -46,19 +46,19 @@ get_header(); ?>
                     <div id="contactFormWrapper">
                       <p>
                         <label>Имя:</label><br>
-                        <input type="text" placeholder="Имя" name="contact[name]" id="contactFormName">
+                        <input type="text" placeholder="Имя" name="name" id="contactFormName">
                       </p>
                       <p>
                         <label>Email:</label><br>
-                        <input type="email" placeholder="Email" name="contact[email]" id="contactFormEmail">
+                        <input type="email" placeholder="Email" name="email" id="contactFormEmail">
                       </p>
                       <p>
                         <label>Телефон:</label><br>
-                        <input type="telephone" placeholder="Телефон" name="contact[phone]" id="contactFormTelephone">
+                        <input type="telephone" placeholder="Телефон" name="phone" id="contactFormTelephone">
                       </p> 
                       <p>
                         <label>Сообщение:</label><br>
-                        <textarea placeholder="Ваше сообщение" name="contact[body]" id="contactFormMessage" cols="75" rows="15"></textarea>
+                        <textarea placeholder="Ваше сообщение" name="body" id="contactFormMessage" cols="75" rows="15"></textarea>
                       </p>
                       <p>
                         <input type="submit" class="btn" value="Отправить" id="contactFormSubmit">
