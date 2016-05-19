@@ -39,7 +39,7 @@ get_header(); ?>
                   <h2 style="display:inline-block"><b><?=$_REQUEST['bikeName']?></b></h2></div>
                  
                   <?
-                  $orderDetails="<h2><b><{$_REQUEST['bikeName']}</b></h2>";
+                  $orderDetails="<h2>Вы выбрали: <b>{$_REQUEST['bikeName']}</b></h2>";
                   
                   /*
                   totalSumm] => 602200
@@ -72,11 +72,14 @@ get_header(); ?>
                   }
                   ?>
                   <p>Всего к оплате <b><?=$_REQUEST['totalSumm']?></b> руб.</p>
+                  <p>Доставка по всей России - бесплатно! Срок доставки от одного дня до месяца, в зависимости от налиия товара и удаленности от Москвы</p>
                   </div>
                   <?
                   $orderDetails.="<p>Всего к оплате <b>{$_REQUEST['totalSumm']}</b> руб.</p>";
                  // printr($_REQUEST);
+                 
                   ?>
+                  
                   <div style="padding:15px;">
 
                     <p>Пожалуйста, заполните следующие поля для завершения оформления заказа.</p>
