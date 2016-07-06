@@ -488,7 +488,7 @@ get_header(); ?>
             <tbody>
                 <tr>
                     <td></td>
-                    <td>от 500 000 руб.</td>
+                    <td>от 499 000 руб.</td>
                 </tr>
                 
             </tbody>
