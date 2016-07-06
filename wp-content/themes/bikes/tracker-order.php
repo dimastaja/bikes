@@ -52,7 +52,7 @@ get_header(); ?>
 
   <form id="form" action="/order/" method="post">
   <input type="hidden" name="bikeName" value="Tracker" />
-  <input type="hidden" name="totalSumm" value="500000"/>
+  <input type="hidden" name="totalSumm" value="499000"/>
     <!-- begin PREVIEW -->
     <div id="scroller" style="position: absolute; top: 349.5px;">
       <div id="spacer" class="desktop"></div>
@@ -432,7 +432,7 @@ function updateImages() {
     $('#challengebag')[0].checked ? $(".overlay-challengebag").show() : $(".overlay-challengebag").hide();
     
     // how much? $$$
-    var $total = 500000;
+    var $total = 499000;
     $('input:radio:checked').each(function() {
       if (this.dataset.price != undefined) {
         var number = Number(this.dataset.price);

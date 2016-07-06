@@ -51,7 +51,7 @@ get_header(); ?>
 
   <form id="form" action="/order/" method="post">
   <input type="hidden" name="bikeName" value="CRUZ" />
-  <input type="hidden" name="totalSumm" value="500000"/>
+  <input type="hidden" name="totalSumm" value="499000"/>
     <!-- begin PREVIEW -->
     <div id="scroller" style="position: absolute; top: 350px;">
       <div id="spacer" class="desktop"></div>
@@ -103,7 +103,7 @@ get_header(); ?>
        </div>
 
     <div style="text-align: center" id="button-o">
-      <input id="button" class="submit" value="500000 руб. &gt;&gt;" type="submit">
+      <input id="button" class="submit" value="499000 руб. &gt;&gt;" type="submit">
     </div>
       
     <div style="text-align: center; padding-top: 15px;">
@@ -421,7 +421,7 @@ function updateImages() {
     $('#challengebag')[0].checked ? $(".overlay-challengebag").show() : $(".overlay-challengebag").hide();
     
     // how much? $$$
-    var $total = 500000;
+    var $total = 499000;
     $('input:radio:checked').each(function() {
       if (this.dataset.price != undefined) {
         var number = Number(this.dataset.price);
